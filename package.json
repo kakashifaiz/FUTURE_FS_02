@@ -1,0 +1,15 @@
+{
+  "name": "simple-crm",
+  "version": "1.0.0",
+  "description": "Simple CRM for managing website leads",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js",
+    "test": "node --test"
+  },
+  "dependencies": {
+    "cors": "^2.8.1",
+    "express": "^4.21.2"
+  }
+}
